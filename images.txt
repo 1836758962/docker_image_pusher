@@ -4,9 +4,8 @@ k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
---platform=redis
 --platform=mysql
 --platform=linux/arm64 rabbitmq:3-management
---platform=linux/arm64 redis
+--platform=linux/arm64 redis:7.0.10
 --platform=linux/arm64 nacos/nacos-server
 --platform=linux/arm64 minio/minio
