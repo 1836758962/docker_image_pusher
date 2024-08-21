@@ -1,20 +1,17 @@
 nginx
 #支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
-k8s.gcr.io/linux/amd64 nacos
+#k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+#xhofe/alist:latest
 #支持指定架构
---platform=mysql
---platform=redis
+#--platform=mysql
+#--platform=redis
 --platform=linux/amd64 nacos
 --platform=linux/amd64 minio
---platform=linux/arm64 xiaoyaliu/alist
 --platform=linux nacos
 --platform=nacos
 --platform=linux minio
 --platform=minio
 #--platform=mysql
---platform=linux/amd64 rabbitmq:3-management
---platform=linux/amd64 redis
---platform=linux/amd64 nacos
---platform=linux/amd64 minio
+#--platform=linux/amd64 rabbitmq:3-management
+#--platform=linux/amd64 redis
+
