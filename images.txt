@@ -7,6 +7,7 @@ nginx
 #--platform=redis
 --platform=nacos/nacos-server:v2.1.1
 --platform=linux/amd64 nacos/nacos-server:v2.1.1
+--platform=linux/amd64 nacos/nacos-server
 --platform=linux/amd64 nacos
 --platform=linux/amd64 minio
 --platform=linux nacos
