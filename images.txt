@@ -5,6 +5,8 @@ nginx
 #支持指定架构
 #--platform=mysql
 #--platform=redis
+--platform=nacos/nacos-server:v2.1.1
+--platform=linux/amd64 nacos/nacos-server:v2.1.1
 --platform=linux/amd64 nacos
 --platform=linux/amd64 minio
 --platform=linux nacos
